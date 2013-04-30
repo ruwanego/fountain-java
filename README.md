@@ -1,4 +1,3 @@
-fountain-java
-=============
+# Fountain for Java
 
-A Java parser for fountain.io/syntax
+A Java parser for [fountain](http://fountain.io/syntax).
