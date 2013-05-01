@@ -291,7 +291,7 @@ public class FNParser {
 			}
 
 			// Transitions
-			if(transitions[Arrays.binarySearch(transitions, line.trim().toUpperCase())].equals(line.trim().toUpperCase()) || line.trim().endsWith("TO:")) {
+			if(transitions[Arrays.binarySearch(transitions, line.trim().toUpperCase())].equals(line.trim().toUpperCase()) || line.trim().toUpperCase().endsWith("TO:")) {
 				newlinesBefore = 0;
 				FNElement element = new FNElement(FNTypes.TRANSITION, line);
 				elements.add(element);
