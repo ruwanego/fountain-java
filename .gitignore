@@ -1,4 +1,6 @@
 *.class
+*.html
+*.css
 
 # Package Files #
 *.jar
